@@ -1,0 +1,20 @@
+{
+  "name": "drtool",
+  "version": "1.0.0",
+  "devDependencies": {
+    "angular-mocks": "1.5.3",
+    "angular-scenario": "1.5.3"
+  },
+  "dependencies": {
+    "angular": "1.5.3",
+    "angular-animate": "1.5.3",
+    "angular-touch": "1.5.3",
+    "angular-bootstrap": "1.3.2",
+    "json3": "3.3.2",
+    "es5-shim": "4.0.3",
+    "bootstrap": "3.3.6",
+    "restangular": "1.4.0",
+    "angular-route": "1.5.3",
+    "ui-router": "0.2.14"
+  }
+}

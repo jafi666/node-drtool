@@ -1,5 +1,5 @@
 ###
-
+API route for handling things to do data.
 ###
 module.exports = (app, express, todoAction) ->
   router = express.Router()

@@ -5,13 +5,13 @@ Q = require 'q'
 ActionManager = require './action-manager'
 
 ###
-
+People class, manages all information regarding people
 ###
-class TodoAction extends ActionManager
+class PersonAction extends ActionManager
   ###
   Constructor, initializes mode on ActionManager
   ###
   constructor: ->
-    super 'Todo'
+    super 'Person'
 
-module.exports = TodoAction
+module.exports = PersonAction

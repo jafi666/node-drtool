@@ -1,5 +1,6 @@
 # Own modules
 TodoAction = require './api/todo-action'
+PersonAction = require './api/person-action'
 
 ###
 Action center class serves as factory of actions handled by objects.
@@ -13,6 +14,7 @@ class ActionCenter
   constructor: ->
     @actions =
       todos: new TodoAction()
+      people: new PersonAction()
 
   ###
   Returns an action on object.

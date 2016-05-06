@@ -6,8 +6,10 @@ Home controller contains functions for managing main page.
 ###
 angular.module('drTool')
 .controller 'HomeController',
-['$scope', '$location', ($scope, $location) ->
-  $scope.peopleList = [{name:'Jafeth Garcia'}]
+['$scope', '$location', 'People', ($scope, $location, People) ->
+  People.getList()
+  .then (people) ->
+    $scope.peopleList = people
 
   $scope.person = {}
   $scope.dt = ''
